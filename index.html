@@ -130,7 +130,7 @@
 
             const ratio = highAvg / (lowAvg + 1);
 
-            const BLOW_RATIO_THRESHOLD = 0.05;
+            const BLOW_RATIO_THRESHOLD = 0.03;
 
             if (ratio > BLOW_RATIO_THRESHOLD && !blown) {
               blown = true;
@@ -162,12 +162,13 @@
         // Update subTitle after short delay
         setTimeout(() => {
           const subTitle = document.getElementById("subTitle");
-          subTitle.textContent = `hope u have the happiest b-day everrr u prick
-          and may the lord bless u with lots of seals, happpiness, success and axone 🦭`;
+          subTitle.textContent = `hope u have the happiest birthday everrr u prick
+          & may the lord bless u with lots of seals, happpiness, success and axone 🦭`;
         }, 1200);
       }
 
       startMicDetection();
     </script>
   </body>
+
 </html>
