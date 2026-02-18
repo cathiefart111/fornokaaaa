@@ -36,7 +36,7 @@
     <script>
       // Read URL params
       const params = new URLSearchParams(window.location.search);
-      const name = params.get("name") || "nokaaaa (edgelord final boss)";
+      const name = params.get("name") || "nokaaaa";
       let candleCount = parseInt(params.get("candles")) || 4;
       candleCount = Math.min(Math.max(candleCount, 1), 30);
 
@@ -162,8 +162,8 @@
         // Update subTitle after short delay
         setTimeout(() => {
           const subTitle = document.getElementById("subTitle");
-          subTitle.textContent = `hope u have the happiest birthday everrr u prick
-          & may the lord bless u with lots of seals, happpiness, success and axone 🦭`;
+          subTitle.textContent = `hope u have the happiest birthday everrr
+          & may the lord bless u with lots of seals, happpiness and success 🦭`;
         }, 1200);
       }
 
@@ -172,3 +172,4 @@
   </body>
 
 </html>
+
